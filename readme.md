@@ -1,4 +1,3 @@
 ## SEKIGAE
-functionやりすぎ()
-
+function(){console.log("やりすぎ");}
 INFINTY SEKIGAE METHOD
