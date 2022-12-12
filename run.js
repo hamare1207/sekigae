@@ -32,5 +32,5 @@ function run(){
     lnch(a[0], a[1]);
 
     // 検証用
-    // dev();
+    dev();
 }
