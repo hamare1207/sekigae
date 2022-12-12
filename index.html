@@ -16,12 +16,9 @@
         <tr><th colspan="2">頑張って作った席替え用ツール　(by 室長)</th></tr>
         <tr>
         <td>
-            <input id="res" type="button" value="初期化" onclick="res()"><br>
             <input id="set" type="button" value="設定" onclick="set()"><br><br>
-            名簿<br>
-            <textarea id="list" rows="10"></textarea><br><br>
-            除外<br>
-            <textarea id="name"></textarea><br><br>
+            <details><summary>名簿</summary><textarea id="list" rows="10"></textarea></details><br>
+            <details><summary>除外</summary><textarea id="name"></textarea></details><br>
             <input id="run" type="button" value="実行" onclick="run()"><br><br>
             ペア分け：<input id="pair" type="checkbox" onchange="cchb()">
         </td>

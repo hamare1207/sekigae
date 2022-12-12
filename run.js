@@ -21,14 +21,8 @@ function lnch(x, y){
 }
 
 function run(){
-    // 初期化と設定適応
-    res();
-    cset();
-
-    // 選択先の配列を生成
+    rset();
     let a = mary();
-
-    // 実行
     lnch(a[0], a[1]);
 
     // 検証用

@@ -1,4 +1,5 @@
 function cchb(){
+    // check_checkbox
     const pair = document.getElementById("pair");
     if (pair.checked){
         for(let i = 0; i < nums.length; i++){

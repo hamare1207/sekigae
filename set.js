@@ -1,4 +1,5 @@
 function iset(){
+    // id_set
     let echr = document.getElementsByClassName("chair");
     let k = 0;
     for(let i = 1; i < 7; i++){
@@ -10,6 +11,7 @@ function iset(){
 }
 
 function cclr(){
+    // chair_clear
     for(let i = 0; i < nums.length; i++){
         document.getElementById(nums[i]).value = "";
         document.getElementById(nums[i]).removeAttribute("disabled");
@@ -17,6 +19,7 @@ function cclr(){
 }
 
 function tset(x, y){
+    // textarea_set
     if(!(document.getElementById(x).value)){
         let i = "";
         for(let j = 0; j < y.length; j++){
@@ -27,6 +30,7 @@ function tset(x, y){
 }
 
 function agen(x){
+    // array_generate
     let t  = document.getElementById(x).value.replace(/\r\n|\r/g, "\n");
     let l = t.split( '\n' );
     let o = new Array();
@@ -40,6 +44,7 @@ function agen(x){
 }
 
 function cset(){
+    // chair_set
     let temp = agen("name");
     for(let i = 0; i < temp.length; i++){
         if(temp[i] == "None"){
@@ -57,22 +62,14 @@ function cset(){
     }
 }
 
-function set(){
-    // 名簿をセット
-    tset("list", list);
-
-    // 除外をセット
-    tset("name", excl);
-
-    // 初期化と設定の適応
-    res();
+function rset(){
+    iset();
+    cclr();
     cset();
 }
 
-function res(){
-    // 座標を設定
-    iset();
-
-    // 教室をクリア
-    cclr();
+function set(){
+    tset("list", list);
+    tset("name", excl);
+    rset();
 }
