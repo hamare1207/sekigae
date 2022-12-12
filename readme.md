@@ -1,7 +1,7 @@
-## SEKIGAE
-INFINTY SEKIGAE METHOD
+### SEKIGAE
+>INFINTY SEKIGAE METHOD
 ```
 function sekigae(){
-  console.log("オブジェクト指向高め");
+  console.log("オブジェクト指向高め ^^;");
 }
 ```

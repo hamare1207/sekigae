@@ -4,6 +4,7 @@ const nums = new Array("11", "12", "13", "14", "15", "16", "21", "22", "23", "24
 const excl = new Array("None", "11", "None", "21", "None", "71", "None", "16", "安原", "25", "髙田", "33", "大坪", "42", "壽", "45", "岡田", "54", "山崎", "76"); 
 
 function mary(){
+    // make_array
     let x = agen("list");
     x = x.filter(i => agen("name").indexOf(i) == -1);
     let y = nums;
@@ -12,6 +13,7 @@ function mary(){
 }
 
 function lnch(x, y){
+    // lunch_main
     for(let i = 0; i < x.length; i++){
         let j = Math.floor(Math.random()*y.length);
         let k = document.getElementById(y[j]);
@@ -25,6 +27,5 @@ function run(){
     let a = mary();
     lnch(a[0], a[1]);
 
-    // 検証用
     dev();
 }

@@ -10,7 +10,7 @@ function iset(){
     }
 }
 
-function cclr(){
+function ccls(){
     // chair_clear
     for(let i = 0; i < nums.length; i++){
         document.getElementById(nums[i]).value = "";
@@ -56,7 +56,7 @@ function cset(){
             var b = temp[i+1];
             var a = document.getElementById(b);
             a.value = temp[i];
-            // a.setAttribute("disabled", "disabled");
+            a.setAttribute("disabled", "disabled");
         }
         i++;
     }
@@ -64,7 +64,7 @@ function cset(){
 
 function rset(){
     iset();
-    cclr();
+    ccls();
     cset();
 }
 
