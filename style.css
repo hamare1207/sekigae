@@ -15,14 +15,6 @@ body{
     height: 100%;
 }
 
-header{
-    width: 100%;
-    height: auto;
-    padding: 5px 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .root{
     height: 100%;
     display: flex;
@@ -58,6 +50,9 @@ table{
 input[type="text"]{
     width: 80px;
     height: 80px;
+    margin: 5px;
+    border: 3px solid #0BB3BF;
+    border-radius: 10px;
 }
 
 textarea{
@@ -66,11 +61,18 @@ textarea{
     height: 10em;
 }
 
+header{
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
 footer{
     width: 100%;
     height: auto;
-    padding: 5px 0;
+    padding: 2em 0;
     margin: 0 auto;
     text-align: center;
-    font-size: 12px;
 }
