@@ -3,8 +3,6 @@
 
 *{
     font-family: 'M PLUS 1 Code', monospace;
-    margin: 0;
-    padding: 0;
 }
 
 html{
@@ -18,11 +16,9 @@ body{
 }
 
 div{
-    flex-direction: row;
-}
-
-.main{
-    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table{
