@@ -9,11 +9,15 @@ html, body{
     height: 100%;
 }
 
-div{
+.root{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.menu{
+    flex-direction: row;
 }
 
 .main{
