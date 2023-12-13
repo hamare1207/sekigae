@@ -12,16 +12,18 @@ html, body{
 .root{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .menu{
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .main{
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 table{
