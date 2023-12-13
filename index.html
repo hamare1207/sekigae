@@ -10,13 +10,15 @@
     <script src="par.js"></script>
 </head>
 <body>
-    <div class="root">
     <header>SEKIGAE TOOL</header>
+    <div class="menu">
         <input id="set" type="button" value="設定" onclick="set()">
         <input id="run" type="button" value="実行" onclick="run()"><br>
         ペア分け：<input id="pair" type="checkbox" onchange="cchb()"><br><br>
         <details open><summary>名簿</summary><textarea id="list"></textarea></details><br>
         <details open><summary>除外</summary><textarea id="name"></textarea></details>
+    </div>
+    <div class="main">
         <table>
             <tr>
                 <td>
@@ -34,7 +36,7 @@
                 </td>
             </tr>
         </table>
-    <footer>(c) 2022-2023 hamare</footer>
     </div>
+    <footer>(c) 2022-2023 hamare</footer>
 </body>
 </html>

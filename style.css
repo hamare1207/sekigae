@@ -17,26 +17,12 @@ body{
     height: 100%;
 }
 
-.main{
-    flex-grow: 1;
-    display: flex;
+div{
     flex-direction: row;
 }
 
-.menu{
-    width: 25%;
-    padding: 2em;
-}
-
-.room{
+.main{
     flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.blank{
-    width: 25%;
 }
 
 table{
