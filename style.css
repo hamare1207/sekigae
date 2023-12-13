@@ -21,6 +21,10 @@ div{
     justify-content: center;
 }
 
+.main{
+    flex-grow: 1;
+}
+
 table{
     white-space: nowrap;
 }
@@ -39,15 +43,7 @@ textarea{
     height: 10em;
 }
 
-header{
-    width: 100%;
-    height: auto;
-    padding: 2em 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
-footer{
+header, footer{
     width: 100%;
     height: auto;
     padding: 2em 0;
