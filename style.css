@@ -34,17 +34,19 @@ table{
 }
 
 input[type="text"]{
-    width: 80px;
-    height: 80px;
-    margin: 5px;
+    font-weight: bold;
+    width: 4em;
+    height: 4em;
+    margin: 2.5px;
     border: 3px solid #0BB3BF;
     border-radius: 10px;
+    text-align: center;
 }
 
 textarea{
     resize: none;
     width: 10em;
-    height: 10em;
+    height: 1em;
 }
 
 header, footer{

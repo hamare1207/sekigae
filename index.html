@@ -4,19 +4,20 @@
 	<meta charset="UTF-8">
 	<title>SEKIGAE TOOL</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="run.js"></script>
-	<script src="set.js"></script>
-	<script src="dev.js"></script>
 	<script src="par.js"></script>
+	<script src="dev.js"></script>
+	<script src="set.js"></script>
+	<script src="run.js"></script>
 </head>
 <body>
 	<header>SEKIGAE TOOL</header>
 	<div class="menu">
 		<input id="set" type="button" value="設定" onclick="set()">
-		<input id="run" type="button" value="実行" onclick="run()"><br>
-		ペア分け：<input id="pair" type="checkbox" onchange="cchb()"><br><br>
-		<details open><summary>名簿</summary><textarea id="list"></textarea></details><br>
-		<details open><summary>除外</summary><textarea id="name"></textarea></details>
+		<input id="run" type="button" value="実行" onclick="run()">
+		<!-- <input id="pair" type="checkbox" onchange="cchb()"> -->
+		<textarea id="list"></textarea>
+		<textarea id="name"></textarea>
+		<input style="width: 10em;">
 	</div>
 	<div class="main">
 		<table>

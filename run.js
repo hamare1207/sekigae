@@ -27,5 +27,5 @@ function run(){
     let a = mary();
     lnch(a[0], a[1]);
 
-    dev();
+    // dev();
 }
